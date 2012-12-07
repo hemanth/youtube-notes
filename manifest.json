@@ -1,0 +1,16 @@
+{
+  "name": "yt-notes",
+  "version" : "1.0.1",
+  "icons" : {
+    "16" : "notepad.gif",
+    "128" : "notes.png"
+  },
+  "permissions" : ["tabs","http://*/*"],
+   "content_scripts": [
+    {
+        "matches": ["<all_urls>"],
+        "js": ["notes.js"]
+    }
+  ]
+
+}
