@@ -10,7 +10,7 @@ s = document.createElement('span')
 b.appendChild(s)
 s.innerHTML="<b>Notes</b>"
 b.appendChild(s)
-d=document.querySelector('div#watch-actions')
+d=document.querySelector('div#watch7-sentiment-actions')
 d.appendChild(b)
 code = document.createElement('div')
 notes = document.createElement('textarea')
